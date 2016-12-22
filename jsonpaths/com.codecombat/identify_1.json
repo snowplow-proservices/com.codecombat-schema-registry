@@ -1,0 +1,33 @@
+{
+    "jsonpaths": [
+        "$.schema.vendor",
+        "$.schema.name",
+        "$.schema.format",
+        "$.schema.version",
+        "$.hierarchy.rootId",
+        "$.hierarchy.rootTstamp",
+        "$.hierarchy.refRoot",
+        "$.hierarchy.refTree",
+        "$.hierarchy.refParent",
+        "$.data.user",
+        "$.data.id",
+        "$.data.traits.ageRange",
+        "$.data.traits.announcesActionAudioGroup",
+        "$.data.traits.anonymous",
+        "$.data.traits.dateCreated",
+        "$.data.traits.defaultLanguageGroup",
+        "$.data.traits.email",
+        "$.data.traits.gender",
+        "$.data.traits.host",
+        "$.data.traits.hourOfCode",
+        "$.data.traits.lastLevel",
+        "$.data.traits.name",
+        "$.data.traits.priority",
+        "$.data.traits.referrer",
+        "$.data.traits.role",
+        "$.data.traits.schoolName",
+        "$.data.traits.teacher",
+        "$.data.traits.testGroupNumber",
+        "$.data.traits.yearSubscriptionGroup"
+    ]
+}
