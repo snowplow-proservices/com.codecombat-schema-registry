@@ -70,15 +70,15 @@ In order to upload schemas you need to have Snowplow Mini IP and Iglu Registry M
 Here we are refer to them as environment variables (those are just examples, you'll have unique IP and key):
 
 ```bash
-SNOWPLOW_MINI_IP=127.0.0.1
-IGLU_REGISTRY_MASTER_KEY=fd08697f-435c-4916-9c85-d0e50bbb8913
+SNOWPLOW_MINI_IP=com-codecombat.mini.snplow.net
+IGLU_REGISTRY_MASTER_KEY=5199e5ba-881d-42dc-880c-032b74cbd5b9
 ```
 
 Or for Windows:
 
 ```
-SET SNOWPLOW_MINI_IP=127.0.0.1
-SET IGLU_REGISTRY_MASTER_KEY=fd08697f-435c-4916-9c85-d0e50bbb8913
+SET SNOWPLOW_MINI_IP=com-codecombat.mini.snplow.net
+SET IGLU_REGISTRY_MASTER_KEY=5199e5ba-881d-42dc-880c-032b74cbd5b9
 ```
 
 Run the following command to publish all schemas to the Iglu server bundled with Snowplow-mini:
