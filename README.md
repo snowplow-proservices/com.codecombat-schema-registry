@@ -110,7 +110,7 @@ git push
 Then push it to S3 bucket:
 
 ```
-$ /path/to/igluctl static s3cp ./schemas snowplow-com-mycompany-iglu-schemas --accessKeyId ABCDEF --secretAccessKey GHIJKILM/12345XYZ --region us-east-1
+$ /path/to/igluctl static s3cp ./schemas sp-com-codecombat-100499738709-0-iglu-schemas --accessKeyId ABCDEF --secretAccessKey GHIJKILM/12345XYZ --region us-east-1
 ```
 
 Note that you also can pass credentials via configuration file or environment variables, as with any [AWS tool] [aws-credentials].
@@ -152,7 +152,7 @@ git push
 Then push to Iglu:
 
 ```
-$ /path/to/igluctl static s3cp ./jsonpaths snowplow-com-codecombat-iglu-jsonpaths --accessKeyId ABCDEF --secretAccessKey GHIJKILM/12345XYZ --region us-east-1
+$ /path/to/igluctl static s3cp ./jsonpaths sp-com-codecombat-100499738709-0-iglu-jsonpaths --accessKeyId ABCDEF --secretAccessKey GHIJKILM/12345XYZ --region us-east-1
 ```
 
 ## 5. Creating or updating the table definition in Redshift
