@@ -8,10 +8,10 @@
 	},
 	"type": "object",
 	"properties": {
-		"user": {"type": "string", "pattern": "^[a-z0-9]{24}$", "maxLength": 24},
-		"levelID": {"type": "string", "pattern": "^[a-z0-9]{24}$", "maxLength": 24},
-		"levelSlug": {"type": "string", "maxLength": 128}
+		"user": {"type": "string", "pattern": "^[a-z0-9]{24}$", "maxLength": 24, "minLength": 24},
+		"ls": {"type": "string", "pattern": "^[a-z0-9]{24}$", "maxLength": 24, "minLength": 24},
+		"levelID": {"type": "string", "maxLength": 128}
 	},
-	"required": ["user", "levelID", "levelSlug"],
+	"required": ["user", "levelID", "ls"],
 	"additionalProperties": false
 }

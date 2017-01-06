@@ -10,7 +10,7 @@
         "$.hierarchy.refTree",
         "$.hierarchy.refParent",
         "$.data.levelID",
-        "$.data.levelSlug",
+        "$.data.ls",
         "$.data.user"
     ]
 }
