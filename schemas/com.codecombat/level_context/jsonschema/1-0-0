@@ -1,0 +1,22 @@
+{
+   "$schema":"http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+   "description":"Schema for a level context",
+   "self":{
+      "vendor":"com.codecombat",
+      "name":"level_context",
+      "format":"jsonschema",
+      "version":"1-0-0"
+   },
+   "type":"object",
+   "properties":{
+      "user_id":{
+         "type":["string", "null"],
+         "maxLength":24
+      },
+      "level_slug":{
+         "type":["string", "null"],
+         "maxLength":4096
+      }
+   },
+   "additionalProperties":false
+}
