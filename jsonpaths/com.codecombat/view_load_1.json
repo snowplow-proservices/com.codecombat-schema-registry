@@ -17,6 +17,7 @@
         "$.data.totalResources",
         "$.data.totalTime",
         "$.data.totalTransferSize",
-        "$.data.viewId"
+        "$.data.viewId",
+        "$.data.tag"
     ]
 }
