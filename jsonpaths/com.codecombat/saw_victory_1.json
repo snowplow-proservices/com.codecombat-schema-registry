@@ -12,6 +12,7 @@
         "$.data.level",
         "$.data.levelID",
         "$.data.ls",
-        "$.data.user"
+        "$.data.user",
+        "$.data.playtime"
     ]
 }
