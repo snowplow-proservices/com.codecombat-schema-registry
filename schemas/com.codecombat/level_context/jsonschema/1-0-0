@@ -13,9 +13,21 @@
          "type":["string", "null"],
          "maxLength":24
       },
+      "world_name":{
+         "type":["string", "null"],
+         "maxLength":128
+      },
+      "level_name":{
+         "type":["string", "null"],
+         "maxLength":128
+      },
       "level_slug":{
          "type":["string", "null"],
-         "maxLength":4096
+         "maxLength":128
+      },
+      "level_session":{
+         "type":["string", "null"],
+         "maxLength":24
       }
    },
    "additionalProperties":false
