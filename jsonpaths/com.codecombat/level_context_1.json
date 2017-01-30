@@ -9,7 +9,10 @@
         "$.hierarchy.refRoot",
         "$.hierarchy.refTree",
         "$.hierarchy.refParent",
+        "$.data.level_name",
+        "$.data.level_session",
         "$.data.level_slug",
-        "$.data.user_id"
+        "$.data.user_id",
+        "$.data.world_name"
     ]
 }
