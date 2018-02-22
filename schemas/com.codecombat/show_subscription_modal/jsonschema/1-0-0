@@ -14,5 +14,5 @@
 		"levelID": {"type": "string", "description": "Actually the level slug."}
 	},
 	"required": ["user", "label"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

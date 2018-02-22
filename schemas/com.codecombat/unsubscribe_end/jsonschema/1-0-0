@@ -12,5 +12,5 @@
 		"message": {"type": "string"}
 	},
 	"required": ["user"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

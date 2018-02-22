@@ -11,8 +11,8 @@
 		"user": {"type": "string", "pattern": "^[a-z0-9]{24}$", "maxLength": 24, "minLength": 24},
 		"label": {"type": "string"},
 		"ls": {"type": "string", "pattern": "^[a-z0-9]{24}$", "maxLength": 24, "minLength": 24},
-		"levelID": {"type": "string", "maxLength": 128}		
+		"levelID": {"type": "string", "maxLength": 128}
 	},
 	"required": ["user", "ls", "levelID"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

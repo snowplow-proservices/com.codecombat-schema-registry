@@ -20,5 +20,5 @@
 		"tag": {"type": "string", "maxLength": 64}
 	},
 	"required": ["user"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

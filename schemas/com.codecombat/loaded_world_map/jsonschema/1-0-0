@@ -12,5 +12,5 @@
 		"label": {"type": "string", "description":"The map that was loaded i.e. forest"}
 	},
 	"required": ["user", "label"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

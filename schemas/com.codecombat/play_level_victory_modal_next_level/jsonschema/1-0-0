@@ -13,5 +13,5 @@
 		"nextLevelSlug": {"type": "string"}
 	},
 	"required": ["user", "levelSlug"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

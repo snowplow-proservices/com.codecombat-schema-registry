@@ -12,5 +12,5 @@
 		"unloaded": {"type": "array"}
 	},
 	"required": ["user", "unloaded"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

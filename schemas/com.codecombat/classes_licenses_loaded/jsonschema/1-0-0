@@ -11,5 +11,5 @@
 		"user": {"type": "string", "pattern": "^[a-z0-9]{24}$", "maxLength":24, "minLength": 24}
 	},
 	"required": ["user"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

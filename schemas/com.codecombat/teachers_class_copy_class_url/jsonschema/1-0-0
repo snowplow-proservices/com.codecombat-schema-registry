@@ -13,5 +13,5 @@
 		"url": {"type":"string", "format":"url"}
 	},
 	"required": ["user", "classroomID", "url"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

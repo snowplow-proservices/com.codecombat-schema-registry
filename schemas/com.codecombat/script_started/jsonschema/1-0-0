@@ -14,5 +14,5 @@
 		"levelID": {"type": "string", "maxLength": 128}
 	},
 	"required": ["user", "ls", "levelID"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

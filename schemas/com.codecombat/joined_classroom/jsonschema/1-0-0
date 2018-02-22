@@ -15,5 +15,5 @@
 		"ownerID": {"type": "string"}
 	},
 	"required": ["user", "classroomID", "ownerID"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

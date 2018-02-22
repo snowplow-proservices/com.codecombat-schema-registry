@@ -13,8 +13,8 @@
 		"hintCount": {"type": "integer"},
 		"levelSlug": {"type": "string", "maxLength": 128},
 		"levelID": {"type": "string", "pattern": "^[a-z0-9]{24}$", "maxLength": 24, "minLength": 24}
-		
+
 	},
 	"required": ["user", "levelSlug"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

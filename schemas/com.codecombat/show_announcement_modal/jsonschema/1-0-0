@@ -12,5 +12,5 @@
     "label": {"type": "string"}
   },
   "required": ["user", "label"],
-  "additionalProperties": false
+  "additionalProperties": true
 }

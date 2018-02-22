@@ -15,5 +15,5 @@
 		"playtime": { "type": "integer", "minimum": 0, "maximum": 172800 }
 	},
 	"required": ["user", "levelID", "ls", "level"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

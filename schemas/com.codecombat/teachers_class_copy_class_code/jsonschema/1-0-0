@@ -13,5 +13,5 @@
 		"classCode": {"type": "string"}
 	},
 	"required": ["user", "classCode", "classroomID"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

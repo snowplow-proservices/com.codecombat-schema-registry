@@ -14,5 +14,5 @@
 		"classroomID": {"type": "string", "pattern": "^[a-z0-9]{24}$", "maxLength": 24, "minLength": 24}
 	},
 	"required": ["user", "courseID","classroomID"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

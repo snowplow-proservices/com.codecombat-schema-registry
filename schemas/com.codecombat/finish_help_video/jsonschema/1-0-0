@@ -14,5 +14,5 @@
 		"style": {"type": "string"}
 	},
 	"required": ["user", "ls", "level"],
-	"additionalProperties": false
+	"additionalProperties": true
 }
