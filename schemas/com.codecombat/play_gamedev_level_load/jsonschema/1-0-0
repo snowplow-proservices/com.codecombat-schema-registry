@@ -16,5 +16,5 @@
 
 	},
 	"required": ["user", "levelSlug", "levelID"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

@@ -14,5 +14,5 @@
 
 	},
 	"required": ["user", "ls"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

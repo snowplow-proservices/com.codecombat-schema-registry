@@ -32,9 +32,9 @@
 				"schoolName": {"type": "string"},
 				"priority": {"type": "string"}
 			},
-			"additionalProperties": false
+			"additionalProperties": true
 		}
 	},
 	"required": ["user"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

@@ -12,5 +12,5 @@
 		"value": {"type": "number", "description": "in cents."}
 	},
 	"required": ["user", "value"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

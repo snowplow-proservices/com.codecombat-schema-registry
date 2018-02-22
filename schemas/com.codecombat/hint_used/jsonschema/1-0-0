@@ -14,5 +14,5 @@
 		"levelSlug": {"type": "string", "maxLength": 128}
 	},
 	"required": ["user", "levelSlug"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

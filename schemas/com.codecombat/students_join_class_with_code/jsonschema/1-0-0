@@ -12,5 +12,5 @@
 		"classCode": {"type": "string"}
 	},
 	"required": ["user", "classCode"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

@@ -19,5 +19,5 @@
 		}
 	},
 	"required": ["user", "classroomID"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

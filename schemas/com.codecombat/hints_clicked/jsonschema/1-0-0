@@ -14,5 +14,5 @@
 		"hintCount": {"type": "integer"}
 	},
 	"required": ["user", "levelSlug"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

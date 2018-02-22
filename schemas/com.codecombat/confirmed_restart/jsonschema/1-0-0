@@ -11,8 +11,8 @@
 		"user": {"type": "string", "pattern": "^[a-z0-9]{24}$", "maxLength": 24, "minLength": 24},
 		"label": {"type": "string"},
 		"level": {"type": "string"}
-		
+
 	},
 	"required": ["user", "label", "level"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

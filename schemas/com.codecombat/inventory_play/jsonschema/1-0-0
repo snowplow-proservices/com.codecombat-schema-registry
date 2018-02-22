@@ -9,8 +9,8 @@
 	"type": "object",
 	"properties": {
 		"user": {"type": "string", "pattern": "^[a-z0-9]{24}$", "maxLength": 24, "minLength": 24},
-		"level": {"type": "string"}		
+		"level": {"type": "string"}
 	},
 	"required": ["user", "level"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

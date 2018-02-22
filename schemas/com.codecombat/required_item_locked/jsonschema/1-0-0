@@ -16,5 +16,5 @@
 		"level": {"type": "string"}
 	},
 	"required": ["user", "level", "item"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

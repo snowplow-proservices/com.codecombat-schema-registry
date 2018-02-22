@@ -32,5 +32,5 @@
 	},
 	"minProperties":1,
 	"required": ["exampleStringField", "exampleIntegerField"],
-	"additionalProperties": false
+	"additionalProperties": true
 }

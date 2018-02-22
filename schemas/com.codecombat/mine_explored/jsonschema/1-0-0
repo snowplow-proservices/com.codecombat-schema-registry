@@ -20,5 +20,5 @@
     }
   },
   "required": ["user", "engage_action"],
-  "additionalProperties": false
+  "additionalProperties": true
 }

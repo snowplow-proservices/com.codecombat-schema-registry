@@ -12,5 +12,5 @@
 		"licensesNeeded": {"type": "number"}
 	},
 	"required": ["user"],
-	"additionalProperties": false
+	"additionalProperties": true
 }
