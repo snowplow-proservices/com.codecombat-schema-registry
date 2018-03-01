@@ -1,0 +1,27 @@
+{
+	"$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+	"self": {
+		"vendor": "com.codecombat",
+		"name": "view_load",
+		"format": "jsonschema",
+		"version": "1-0-3"
+	},
+	"type": "object",
+	"properties": {
+		"user": {"type": "string", "pattern": "^[a-z0-9]{24}$", "maxLength": 24, "minLength": 24},
+		"totalEncodedBodySize": {"type": ["number", "null"]},
+		"totalTransferSize": {"type": ["number", "null"]},
+		"cachedResources": {"type": ["number", "null"]},
+		"totalResources": {"type": ["number", "null"]},
+		"totalTime": {"type": ["number", "null"]},
+		"networkTime": {"type": ["number", "null"]},
+		"viewId": {"type": ["string", "null"]},
+		"firstLoad": {"type": ["boolean", "null"]},
+		"tag": {"type": ["string", "null"], "maxLength": 64},
+		"totalJSHeapSize": {"type": ["number", "null"]},
+		"usedJSHeapSize": {"type": ["number", "null"]},
+		"jsHeapSizeLimit": {"type": ["number", "null"]}
+	},
+	"required": ["user"],
+	"additionalProperties": true
+}

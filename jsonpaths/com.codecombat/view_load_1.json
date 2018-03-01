@@ -18,6 +18,9 @@
         "$.data.totalTime",
         "$.data.totalTransferSize",
         "$.data.viewId",
-        "$.data.tag"
+        "$.data.tag",
+        "$.data.jsHeapSizeLimit",
+        "$.data.totalJSHeapSize",
+        "$.data.usedJSHeapSize"
     ]
 }
