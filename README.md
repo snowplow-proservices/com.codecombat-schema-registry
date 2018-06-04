@@ -121,6 +121,31 @@ Useful resources
 * [Iglu central](https://github.com/snowplow/iglu-central) - centralized registry for all the schemas hosted by the Snowplow team
 * [Iglu](https://github.com/snowplow/iglu) - respository with both Iglu server and client libraries
 
+### 2.3 Upload the schemas to Iglu Server for the full pipeline
+
+Once you've created your schemas, you need to upload them to your Iglu Server.  In practice, this means synchronising them with the Iglu Server.
+
+This must be done via Igluctl.  In the project root, first commit the schema to Git:
+
+```
+git add .
+git commit -m "Committed finalized schema"
+git push
+```
+
+Then push them to the Iglu Server. In order to upload schemas you need to have the Iglu Server IP and Iglu Server Master key.
+Here we are refer to them as environment variables (those are just examples, you'll have unique IP and key):
+
+```bash
+IGLU_SERVER_IP=com-codecombat.iglu.snplow.net
+IGLU_SERVER_MASTER_KEY=5199e5ba-881d-42dc-880c-032b74cbd5b9
+```
+
+Run the following command to publish all schemas to the Iglu Server:
+
+```bash
+$ /path/to/igluctl static push ./schemas $IGLU_SERVER_IP $IGLU_SERVER_MASTER_KEY
+```
 
 ## 3. Creating the JSON Path files and SQL table definitions
 
