@@ -1,5 +1,15 @@
 # com.codecombat schema registry
 
+----
+
+### Pulic Repository
+
+This repo is meant to be public.
+
+It serves as a demo to show what the Snowplow pipeline looks like.
+
+----
+
 ## Overview
 
 Before you can send your own event and context types into Snowplow (using the track unstructured events or track self-describing events and custom contexts features of Snowplow), you need to:
